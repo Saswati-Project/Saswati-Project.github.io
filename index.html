@@ -1,84 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dr. Your Name — Home</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <title>Dr. Your Name</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-  <div class="brand">
-    <div class="logo">YN</div>
-    <div>
-      <div class="name">Dr. Your Name</div>
-      <div class="tag">Robotics · ML · NLP</div>
-    </div>
-  </div>
-
+  <!-- Navbar -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="education.html">Education</a>
-    <a href="experience.html">Experience</a>
-    <a href="achievements.html">Achievements</a>
-    <a href="publications.html">Publications</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="contact.html" class="pill">Contact</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
-</header>
 
-  <div class="wrap">
-    <!-- Shared header -->
-    <header>
-      <div class="brand">
-        <div class="logo">YN</div>
-        <div>
-          <div class="name">Dr. Your Name</div>
-          <div class="tag">Robotics · ML · NLP</div>
-        </div>
-      </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="education.html">Education</a>
-        <a href="experience.html">Experience</a>
-        <a href="achievements.html">Achievements</a>
-        <a href="publications.html">Publications</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="contact.html" class="pill">Contact</a>
-      </nav>
-    </header>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="profile">
+      <img src="assets/images/profile.jpg" alt="Profile picture of Dr. Your Name">
+    </div>
+    <div class="info">
+      <h1>Dr. Your Name</h1>
+      <h2>Assistant Professor · Robotics &amp; ML</h2>
+      <p>I build language-aware navigation systems for robots …</p>
 
-    <!-- Hero section -->
-    <section class="hero">
-      <div class="profile-pic">
-        <img src="assets/img/profile.jpg" alt="Profile picture of Dr. Your Name" />
-      </div>
-      <div>
-        <h1>Dr. Your Name</h1>
-        <div class="role">Assistant Professor · Robotics & ML</div>
-        <p>I build language-aware navigation systems for robots …</p>
-        <div class="social">
-          <a href="https://linkedin.com/in/YOURPROFILE" target="_blank">LinkedIn</a>
-          <a href="https://scholar.google.com/citations?user=YOURID" target="_blank">Google Scholar</a>
-          <a href="mailto:your.email@example.com">Email</a>
-          <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
-        </div>
-        <div class="primary-actions">
-          <a class="btn" href="assets/docs/CV.pdf" download>Download CV</a>
-          <a class="btn secondary" href="contact.html">Contact</a>
-        </div>
-      </div>
-    </section>
+      <p class="links">
+        <a href="#">LinkedIn</a> · 
+        <a href="#">Google Scholar</a> · 
+        <a href="mailto:you@example.com">Email</a> · 
+        <a href="#">GitHub</a> · 
+        <a href="#">Download CV</a>
+      </p>
+    </div>
+  </header>
 
-    <footer>
-      © <span id="year"></span> Dr. Your Name
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <footer>
+    <p>&copy; 2025 Dr. Your Name</p>
+  </footer>
 </body>
 </html>
