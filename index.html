@@ -1,9 +1,63 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dr. Your Name — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 <body>
+  <div class="wrap">
+    <!-- Shared header -->
+    <header>
+      <div class="brand">
+        <div class="logo">YN</div>
+        <div>
+          <div class="name">Dr. Your Name</div>
+          <div class="tag">Robotics · ML · NLP</div>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html" class="pill">Contact</a>
+      </nav>
+    </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="profile-pic">
+        <img src="assets/img/profile.jpg" alt="Profile picture of Dr. Your Name" />
+      </div>
+      <div>
+        <h1>Dr. Your Name</h1>
+        <div class="role">Assistant Professor · Robotics & ML</div>
+        <p>I build language-aware navigation systems for robots …</p>
+        <div class="social">
+          <a href="https://linkedin.com/in/YOURPROFILE" target="_blank">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=YOURID" target="_blank">Google Scholar</a>
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+        </div>
+        <div class="primary-actions">
+          <a class="btn" href="assets/docs/CV.pdf" download>Download CV</a>
+          <a class="btn secondary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
 
+    <footer>
+      © <span id="year"></span> Dr. Your Name
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
