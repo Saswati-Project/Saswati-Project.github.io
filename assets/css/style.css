@@ -8,7 +8,7 @@
 }
 
 .links a:hover {
-  color: #00ffff; /* Optional: change icon color on hover */
+  color: #212157; /* Optional: change icon color on hover */
 }
 html, body {
   height: 100%;           /* full viewport height */
