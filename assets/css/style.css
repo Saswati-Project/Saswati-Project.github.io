@@ -1,4 +1,15 @@
 /* General reset */
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;  /* Optional: make icons larger */
+  margin: 0 5px;    /* Optional: space between icons */
+}
+
+.links a:hover {
+  color: #00ffff; /* Optional: change icon color on hover */
+}
 html, body {
   height: 100%;           /* full viewport height */
   margin: 0;
