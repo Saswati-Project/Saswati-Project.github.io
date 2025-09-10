@@ -1,7 +1,13 @@
 /* General reset */
-body {
+html, body {
+  height: 100%; /* make body take full height */
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* stack header, content, footer vertically */
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f8f9fa;
@@ -50,6 +56,7 @@ header img {
 
 /* Sections */
 section {
+  flex: 1; /* this expands to push footer down */
   padding: 20px;
   max-width: 800px;
   margin: auto;
@@ -61,4 +68,5 @@ footer {
   padding: 10px;
   background: #333;
   color: #fff;
+  margin-top: auto; /* ensures footer sticks to bottom */
 }
