@@ -82,6 +82,8 @@ section {
   width: 100%;
   max-width: 800px;
   margin: 20px auto;
+  text-align: justify;  
+  text-justify: inter-word;
 }
 
 /* Footer */
