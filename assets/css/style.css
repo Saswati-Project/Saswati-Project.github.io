@@ -1,4 +1,28 @@
 /* General reset */
+.achievements {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.achievements h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 12px;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+}
+
 /* Simple Experience Section */
 .experience-list {
   max-width: 800px;
