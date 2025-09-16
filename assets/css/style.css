@@ -1,95 +1,24 @@
 /* General reset */
-/* Timeline Section */
-.timeline {
-  position: relative;
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px 0;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 4px;
-  background-color: #007bff;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -2px;
-}
-
-.timeline-item {
+/* Experience Section */
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
   padding: 20px;
-  position: relative;
-  width: 50%;
 }
 
-.timeline-item .timeline-date {
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 10px;
-}
-
-.timeline-item .timeline-content {
+.experience-card {
   background: white;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 20px;
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   text-align: justify;
 }
 
-/* Left items */
-.timeline-item:nth-child(odd) {
-  left: 0;
+.experience-card h2 {
+  margin-top: 0;
+  color: #007bff;
 }
-
-/* Right items */
-.timeline-item:nth-child(even) {
-  left: 50%;
-}
-
-/* Circles on timeline */
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  top: 25px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #007bff;
-  border: 3px solid #fff;
-  z-index: 1;
-}
-
-.timeline-item:nth-child(odd)::before {
-  right: -10px;
-}
-
-.timeline-item:nth-child(even)::before {
-  left: -10px;
-}
-
-/* Responsive (stacked timeline for mobile) */
-@media screen and (max-width: 768px) {
-  .timeline::after {
-    left: 20px;
-  }
-
-  .timeline-item {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 25px;
-  }
-
-  .timeline-item:nth-child(even) {
-    left: 0;
-  }
-
-  .timeline-item::before {
-    left: 15px;
-  }
-}
-
 
 /* Education Section */
 .education-container {
