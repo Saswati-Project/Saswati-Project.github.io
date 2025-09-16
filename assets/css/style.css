@@ -25,26 +25,7 @@
   margin: 10px 0 0 20px;
 }
 
-/* Experience Section */
-.experience-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
 
-.experience-card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: justify;
-}
-
-.experience-card h2 {
-  margin-top: 0;
-  color: #007bff;
-}
 
 /* Education Section */
 .education-container {
