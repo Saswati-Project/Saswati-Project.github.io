@@ -1,4 +1,30 @@
 /* General reset */
+/* Simple Experience Section */
+.experience-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.experience-entry {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.experience-entry h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.experience-entry ul {
+  margin: 10px 0 0 20px;
+}
+
 /* Experience Section */
 .experience-container {
   display: grid;
